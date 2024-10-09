@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Background image settings */
+  body {
+    background-image: url('/images/index.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    color: white; /* White text for contrast */
+  }
+
+  /* Navbar styles */
+  .navbar {
+    width: 100%;
+    background-color: rgb(24, 0, 44); /* Semi-transparent background */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+
+  .navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Highlight effect on hover */
+    border-radius: 4px;
+  }
+
+  /* Content section */
+  .content {
+    text-align: center;
+    margin-top: 150px; /* Pushes content below the navbar */
+    z-index: 1;
+  }
+
+  .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    font-size: 20px;
+  }
